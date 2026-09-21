@@ -51,7 +51,7 @@
     .site-header{
       position:relative;
       overflow:hidden;
-      min-height:440px;
+      min-height:225px;
       border-bottom:1px solid var(--border-soft);
       background:
         radial-gradient(circle at 50% 72%, rgba(216,255,53,.025), transparent 24%),
@@ -61,10 +61,10 @@
     .site-header::before{
       content:"";
       position:absolute;
-      width:620px;
-      height:250px;
+      width:460px;
+      height:160px;
       left:50%;
-      bottom:-155px;
+      bottom:-105px;
       transform:translateX(-50%);
       border-radius:50%;
       background:rgba(67,87,112,.10);
@@ -142,12 +142,12 @@
     .hero{
       position:relative;
       z-index:2;
-      min-height:350px;
+      min-height:175px;
       display:flex;
       align-items:center;
       justify-content:center;
       text-align:center;
-      padding:30px 20px 75px;
+      padding:18px 20px 30px;
     }
 
     .hero-content{
@@ -163,7 +163,7 @@
       font-weight:850;
       letter-spacing:.2em;
       text-transform:uppercase;
-      margin-bottom:17px;
+      margin-bottom:9px;
     }
 
     .hero-kicker::before,
@@ -176,7 +176,7 @@
 
     .hero h1{
       margin:0;
-      font-size:clamp(45px,8vw,78px);
+      font-size:clamp(34px,5vw,48px);
       line-height:.95;
       letter-spacing:-.065em;
       font-weight:900;
@@ -188,10 +188,10 @@
     }
 
     .hero-subtitle{
-      margin:20px auto 0;
+      margin:10px auto 0;
       max-width:620px;
       color:#a4afbd;
-      font-size:clamp(15px,2vw,18px);
+      font-size:clamp(12px,1.5vw,15px);
       line-height:1.55;
     }
 
@@ -201,9 +201,9 @@
     }
 
     .hero-line{
-      width:70px;
-      height:2px;
-      margin:25px auto 0;
+      width:52px;
+      height:1px;
+      margin:13px auto 0;
       background:linear-gradient(90deg,transparent,var(--accent),transparent);
       opacity:.8;
     }
@@ -469,7 +469,7 @@
       }
 
       .site-header{
-        min-height:400px;
+        min-height:210px;
       }
     }
 
@@ -484,8 +484,8 @@
       }
 
       .hero{
-        min-height:315px;
-        padding-bottom:60px;
+        min-height:175px;
+        padding-bottom:30px;
       }
 
       .grid{
@@ -515,7 +515,7 @@
       }
 
       .site-header{
-        min-height:375px;
+        min-height:195px;
       }
 
       .hero{
@@ -524,7 +524,7 @@
       }
 
       .hero h1{
-        font-size:47px;
+        font-size:34px;
       }
 
       .hero-subtitle{
