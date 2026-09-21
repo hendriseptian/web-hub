@@ -51,7 +51,7 @@
     .site-header{
       position:relative;
       overflow:hidden;
-      min-height:125px;
+      min-height:92px;
       border-bottom:1px solid var(--border-soft);
       background:
         radial-gradient(circle at 50% 72%, rgba(216,255,53,.025), transparent 24%),
@@ -74,7 +74,7 @@
 
     .header-top{
       position:relative;
-      z-index:3;
+      z-index:5;
       width:100%;
       padding:20px clamp(18px,3vw,42px);
       display:flex;
@@ -140,14 +140,22 @@
     }
 
     .hero{
-      position:relative;
+      position:absolute;
       z-index:2;
-      min-height:95px;
+      top:12px;
+      left:0;
+      width:100%;
+      min-height:68px;
       display:flex;
       align-items:center;
       justify-content:center;
       text-align:center;
-      padding:8px 20px 16px;
+      padding:0 20px;
+      pointer-events:none;
+    }
+
+    .hero-content{
+      transform:translateY(-1px);
     }
 
     .hero-content{
@@ -515,7 +523,7 @@
       }
 
       .site-header{
-        min-height:115px;
+        min-height:175px;
       }
 
       .hero{
